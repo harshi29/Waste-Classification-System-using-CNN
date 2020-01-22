@@ -1,0 +1,20 @@
+Pass I
+Layers - Guass(0.1) , 3X (Conv(filters=64,kernel=3,3,relu)+b.norm+pool2,2), 2 hidden(256+128,relu))
+Optimizer - Adam
+Accuracy - 80.14 (15epoch), max- 82.96 (13 epoch) 
+
+----------------------------------------------------------------------------------------------------
+
+Pass II
+Layers - Guass(0.1) , 3X (Conv(filters=64,kernel=3,3,relu)+b.norm+pool2,2), 2 hidden(256+128,relu))
+Optimizer - RMS Prop
+Accuracy - 77.78 (15epoch), max- 81.53 (14 epoch) 
+
+----------------------------------------------------------------------------------------------------
+
+Pass III
+Layers - Gauss(0.01) , 3X (Conv(filters=64,kernel=3,3,relu)+b.norm+pool2,2), 2 hidden(256+128,relu))
+Optimizer - Adam
+Accuracy - 68.79 (15 epoch), max - 80.54 (12th epoch)
+
+-----------------------------------------------------------------------------------------------------
