@@ -1,1 +1,1 @@
-# Waste-Classification-System
+# Waste-Classification-System USING CNN
